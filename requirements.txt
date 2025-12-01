@@ -1,0 +1,22 @@
+--index https://pypi.tuna.tsinghua.edu.cn/simple/
+
+# conda create -n dh python=3.10
+# conda activate dh
+# conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+# conda install mkl=2024.0
+# pip install opencv-python
+# pip install transformers
+# pip install numpy==1.23.5
+# pip install soundfile
+# pip install librosa
+# pip install onnxruntime
+
+torch
+torchvision
+torchaudio
+
+opencv-contrib-python
+numpy==1.26.4
+transformers==4.39.2
+soundfile
+librosa
